@@ -1,0 +1,14 @@
+C:\Users\Maurilio\Desktop\Sistema\Sistema.RepositorioEF\obj\Debug\Sistema.RepositorioEF.csprojAssemblyReference.cache
+C:\Users\Maurilio\Desktop\Sistema\Sistema.RepositorioEF\obj\Debug\Sistema.RepositorioEF.csproj.CoreCompileInputs.cache
+C:\Users\Maurilio\Desktop\Sistema\Sistema.RepositorioEF\bin\Debug\Sistema.RepositorioEF.dll.config
+C:\Users\Maurilio\Desktop\Sistema\Sistema.RepositorioEF\bin\Debug\Sistema.RepositorioEF.dll
+C:\Users\Maurilio\Desktop\Sistema\Sistema.RepositorioEF\bin\Debug\Sistema.RepositorioEF.pdb
+C:\Users\Maurilio\Desktop\Sistema\Sistema.RepositorioEF\bin\Debug\EntityFramework.dll
+C:\Users\Maurilio\Desktop\Sistema\Sistema.RepositorioEF\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Maurilio\Desktop\Sistema\Sistema.RepositorioEF\bin\Debug\Sistema.Dominio.dll
+C:\Users\Maurilio\Desktop\Sistema\Sistema.RepositorioEF\bin\Debug\Sistema.Dominio.pdb
+C:\Users\Maurilio\Desktop\Sistema\Sistema.RepositorioEF\bin\Debug\EntityFramework.xml
+C:\Users\Maurilio\Desktop\Sistema\Sistema.RepositorioEF\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Maurilio\Desktop\Sistema\Sistema.RepositorioEF\obj\Debug\Sistema.RepositorioEF.csproj.CopyComplete
+C:\Users\Maurilio\Desktop\Sistema\Sistema.RepositorioEF\obj\Debug\Sistema.RepositorioEF.dll
+C:\Users\Maurilio\Desktop\Sistema\Sistema.RepositorioEF\obj\Debug\Sistema.RepositorioEF.pdb

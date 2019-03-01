@@ -1,0 +1,64 @@
+﻿@model Sistema.Dominio.Clientes
+
+@{
+    ViewBag.Title = "Excluir Cliente";
+}
+
+<h3 align="center">Deseja realmente excluir este registro?</h3>
+<div class="row">
+    <div class="login-box">
+        <div class="col-md-20">
+            <div class="box box-primary">
+                <div class="box-body box-profile">
+
+                    <h3 class="profile-username text-center">@Html.DisplayFor(model => model.razaoSocial)</h3>
+
+                    <p class="text-muted text-center">@Html.DisplayFor(model => model.nomeFantasia)</p>
+
+                    <ul class="list-group list-group-unbordered">
+                        <li class="list-group-item">
+                            <b>@Html.DisplayName("Razão Social: ")</b> <a class="pull-right">@Html.DisplayFor(model => model.razaoSocial)</a>
+                        </li>
+                        <li class="list-group-item">
+                            <b>@Html.DisplayName("Nome Fantasia: ")</b> <a class="pull-right">@Html.DisplayFor(model => model.nomeFantasia)</a>
+                        </li>
+                        <li class="list-group-item">
+                            <b>@Html.DisplayName("CNPJ: ")</b> <a class="pull-right">@Html.DisplayFor(model => model.cnpj)</a>
+                        </li>
+                        <li class="list-group-item">
+                            <b>@Html.DisplayName("Endereço: ")</b> <a class="pull-right">@Html.DisplayFor(model => model.endereço)</a>
+                        </li>
+                        <li class="list-group-item">
+                            <b>@Html.DisplayName("Número: ")</b> <a class="pull-right">@Html.DisplayFor(model => model.numero)</a>
+                        </li>
+                        <li class="list-group-item">
+                            <b>@Html.DisplayName("Bairro: ")</b> <a class="pull-right">@Html.DisplayFor(model => model.bairro)</a>
+                        </li>
+                        <li class="list-group-item">
+                            <b>@Html.DisplayName("Complemento: ")</b> <a class="pull-right">@Html.DisplayFor(model => model.complemento)</a>
+                        </li>
+                        <li class="list-group-item">
+                            <b>@Html.DisplayName("Município: ")</b> <a class="pull-right">@Html.DisplayFor(model => model.municipio)</a>
+                        </li>
+                        <li class="list-group-item">
+                            <b>@Html.DisplayName("CEP: ")</b> <a class="pull-right">@Html.DisplayFor(model => model.cep)</a>
+                        </li>
+                    </ul>
+                    <div>
+
+                        @using (Html.BeginForm())
+                        {
+                            @Html.AntiForgeryToken()
+                            <div class="box-footer" align="center">
+                                <div class="form-actions no-color">
+                                    <input type="submit" value="Excluir" class="btn btn-danger" />
+                                    <input type="button" value="Voltar" class="btn btn-primary" onclick="location.href='@Url.Action("ListaClientes")'">
+                                </div>
+                            </div>
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

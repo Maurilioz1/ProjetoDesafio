@@ -1,0 +1,6 @@
+C:\Users\Maurilio\Desktop\Sistema\Sistema.Dominio\obj\Debug\Sistema.Dominio.csprojAssemblyReference.cache
+C:\Users\Maurilio\Desktop\Sistema\Sistema.Dominio\obj\Debug\Sistema.Dominio.csproj.CoreCompileInputs.cache
+C:\Users\Maurilio\Desktop\Sistema\Sistema.Dominio\bin\Debug\Sistema.Dominio.dll
+C:\Users\Maurilio\Desktop\Sistema\Sistema.Dominio\bin\Debug\Sistema.Dominio.pdb
+C:\Users\Maurilio\Desktop\Sistema\Sistema.Dominio\obj\Debug\Sistema.Dominio.dll
+C:\Users\Maurilio\Desktop\Sistema\Sistema.Dominio\obj\Debug\Sistema.Dominio.pdb

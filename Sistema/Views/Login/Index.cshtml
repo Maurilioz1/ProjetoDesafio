@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Página Inicial";
+}
+
+<div class="jumbotron">
+    <h1>Projeto Desafio</h1>
+    <p class="lead">Projeto desenvolvido em ASP.NET MVC 5 com o Visual Studio 2017 Community.</p>
+    <p><a href="https://asp.net" class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+</div>
+
+<div class="jumbotron">
+    <h2>Principais objetivos do projeto:</h2>
+    <p>
+        Registro e Login de Adminstrador;<br />
+        Sistema onde o Administrador poderá cadastrar Usuários e Clientes;<br />
+        Os cadastros poderão ser visualizados, editados ou excluídos.
+    </p>
+    <div class="col-md-2">
+        <p><a class="btn btn-primary btn-lg" href="@Url.Action("ListaUsuarios", "Usuario")">Usuários &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <p><a class="btn btn-primary btn-lg" href="@Url.Action("ListaClientes", "Cliente")">Clientes &raquo;</a></p>
+    </div>
+</div>

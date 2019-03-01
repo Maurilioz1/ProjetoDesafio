@@ -1,0 +1,73 @@
+﻿@model IEnumerable<Sistema.Dominio.Clientes>
+
+@{
+    ViewBag.Title = "Lista de Clientes";
+}
+
+<div class="box-footer">
+    <button type="button" class="btn btn-success" onclick="location.href='@Url.Action("CadastrarCliente")'"><i class="fa fa-fw fa-user-plus"></i> Novo Cliente</button>
+</div>
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="box">
+            <div class="box-header with-border">
+                <h3 class="box-title">Clientes</h3>
+                <div class="box-body">
+                    <table class="table table-bordered">
+                        <tr>
+                            <th width="200">@Html.DisplayName("Razão Social")</th>
+                            <th width="200">@Html.DisplayName("Nome Fantasia")</th>
+                            <th>@Html.DisplayName("CNPJ")</th>
+                            <th>@Html.DisplayName("Endereço")</th>
+                            <th>@Html.DisplayName("Número")</th>
+                            <th>@Html.DisplayName("Bairro")</th>
+                            <th width="200">@Html.DisplayName("Complemento")</th>
+                            <th>@Html.DisplayName("Municipio")</th>
+                            <th>@Html.DisplayName("Cep")</th>
+                        </tr>
+
+                        @foreach (var item in Model)
+                        {
+                            <tr>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.razaoSocial)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.nomeFantasia)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.cnpj)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.endereço)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.numero)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.bairro)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.complemento)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.municipio)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.cep)
+                                </td>
+                                <td>
+                                    <button type="button" class="btn btn-primary" onclick="location.href='@Url.Action("EditarCliente", new { id = item.id, } )'"><i class="fa fa-edit"></i> Editar</button>
+                                    <button type="button" class="btn btn-primary" onclick="location.href='@Url.Action("DetalhesCliente", new { id = item.id })'"><i class="fa fa-fw fa-file-text-o"></i> Detalhes</button>
+                                    <button type="button" class="btn btn-primary" onclick="location.href='@Url.Action("ExcluirCliente", new { id = item.id, } )'"><i class="fa fa-fw fa-trash"></i> Excluir</button>
+                                </td>
+                            </tr>
+                        }
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
